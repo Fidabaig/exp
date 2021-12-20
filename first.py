@@ -1,4 +1,4 @@
-
+print("hello ")
 def encrypt(text,s):
 	result = ""
 	for i in range(len(text)):
