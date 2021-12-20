@@ -1,4 +1,4 @@
-print("hello ")
+print("hello "+str(2))
 def encrypt(text,s):
 	result = ""
 	for i in range(len(text)):
@@ -29,6 +29,6 @@ print("origional text : " + text)
 print("Shift : " + str(s))
 print("excrypted text: " + encrypt(text,s))
 x=encrypt(text,s)
-
+a = input()
 print("decrypted text: " + decrypt(x,s))
 
